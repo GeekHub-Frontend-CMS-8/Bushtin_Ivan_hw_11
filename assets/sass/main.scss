@@ -1,0 +1,53 @@
+@import "variables";
+@import "fonts";
+
+body {
+  background: #e6e6e6;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.section-header {
+  margin-bottom: 25px;
+  color: $first-text-color;
+  font: 400 20px $third-font;
+  text-transform: uppercase;
+  letter-spacing: 0.44px;
+}
+
+.section-paragraph {
+  color: $first-text-color;
+  font: 400 14px/20px $second-font;
+  letter-spacing: 1.4px;
+}
+
+.section-button {
+  width: 135px;
+  height: 39px;
+  border: 2px solid $first-text-color;
+  color: $first-text-color;
+  background-color: transparent;
+  font: 700 13px $primary-font;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+  outline: none;
+
+  &:hover {
+    background-color: $menu-color;
+  }
+}
+
+@import "header";
+@import "slider";
+@import "about";
+@import "services";
+@import "history";
+@import "team";
+@import "portfolio";
+@import "prices";
+@import "looking";
+@import "blog";
+@import "clients";
+@import "testimonial";
+@import "map";
+@import "footer";
